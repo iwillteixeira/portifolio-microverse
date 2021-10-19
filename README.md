@@ -13,19 +13,12 @@ Microverse lesson
 - HTML & CSS
 - VS CODE
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-
-
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/iwillteixeira)
-- Twitter: [@twitterhandle](https://twitter.com/iwillteixeira)
+- GitHub: [@iwillteixeira](https://github.com/iwillteixeira)
+- Twitter: [@iwillteixeira](https://twitter.com/iwillteixeira)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/juscelino-t-39aa9049/)
 
 
