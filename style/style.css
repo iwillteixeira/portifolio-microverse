@@ -23,9 +23,9 @@ body {
   width: 100%;
 }
 
-header {
+.top-mob {
   height: 718px;
-  background-image: url(../img/header-shapes-mobile.png);
+  background-image: url("../img/header-shapes-mobile.png");
   background-color: white;
   border-bottom-left-radius: 5rem;
   border-top-left-radius: 2rem;
@@ -86,7 +86,9 @@ nav {
 }
 
 .brands {
-  margin-top: 10px;
+  padding-left: 0;
+  display: flex;
+  list-style: none;
 }
 
 .brands i {
