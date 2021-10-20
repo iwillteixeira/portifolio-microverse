@@ -4,6 +4,8 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "normalize.css": "^8.0.1",
     "postcss": "^8.3.9",
     "postcss-loader": "^6.2.0"
   },
