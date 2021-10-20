@@ -27,6 +27,8 @@ body {
   height: 718px;
   background-image: url("../img/header-shapes-mobile.png");
   background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-bottom-left-radius: 5rem;
   border-top-left-radius: 2rem;
   display: flex;
