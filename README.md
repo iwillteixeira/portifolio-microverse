@@ -4,7 +4,7 @@
 
 > Build HTML & CSS - Gitflow
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot_new.png)
 
 Portifolio Figma - Layout
 
