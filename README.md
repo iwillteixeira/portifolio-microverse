@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello world Microverse
+# Portifolio Microverse
 
 > Build HTML & CSS - Gitflow
 
 ![screenshot](./app_screenshot.png)
 
-Microverse lesson
+Portifolio Figma - Layout
 
 ## Built With
 
