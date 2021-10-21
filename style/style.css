@@ -128,10 +128,12 @@ header {
 }
 
 .project {
-  padding: 16px;
+  display: flex;
+  flex-direction: column;
   border: 1px solid #dfe1e6;
   border-radius: 20px;
   background-color: #fff;
+  padding: 1em;
 }
 
 .work-title {
@@ -223,9 +225,10 @@ header {
 }
 
 .about {
-  display: grid;
-  grid-template-rows: repeat(2, auto);
+  display: flex;
+  flex-direction: column;
   row-gap: 3em;
+  justify-content: center;
   padding: 100px 24px;
   background-color: #fff;
   border-top-right-radius: 5em;
@@ -236,6 +239,13 @@ header {
   line-height: 52px;
   font-weight: 800;
   color: #172b4d;
+}
+
+.me h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7f8cff;
 }
 
 .about p {
