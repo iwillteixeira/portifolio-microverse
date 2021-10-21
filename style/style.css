@@ -6,7 +6,6 @@ a {
   padding: 0;
   border: 0;
   text-decoration: none;
-  list-style: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,700&display=swap');
@@ -255,15 +254,26 @@ header {
   color: #344563;
 }
 
-.user-tool > li > div {
+.user-tool {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  row-gap: 15px;
+}
+
+.user-tool > div {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+.user-tool > div > ul {
+  flex: 1 1 100%;
   list-style: none;
   margin-bottom: 10px;
 }
 
-.user-tool > li > ul > li {
+.user-tool > div > ul > li {
   display: flex;
   align-items: center;
   column-gap: 20px;
