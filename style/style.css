@@ -6,6 +6,7 @@ a {
   padding: 0;
   border: 0;
   text-decoration: none;
+  list-style: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,700&display=swap');
@@ -127,12 +128,10 @@ header {
 }
 
 .project {
-  display: flex;
-  flex-direction: column;
+  padding: 16px;
   border: 1px solid #dfe1e6;
   border-radius: 20px;
   background-color: #fff;
-  padding: 1em;
 }
 
 .work-title {
@@ -224,10 +223,9 @@ header {
 }
 
 .about {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
   row-gap: 3em;
-  justify-content: center;
   padding: 100px 24px;
   background-color: #fff;
   border-top-right-radius: 5em;
@@ -240,13 +238,6 @@ header {
   color: #172b4d;
 }
 
-.me h3 {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  color: #7f8cff;
-}
-
 .about p {
   font-size: 16px;
   font-weight: 400;
@@ -254,26 +245,14 @@ header {
   color: #344563;
 }
 
-.user-tool {
-  display: grid;
-  grid-template-rows: repeat(3, auto);
-  row-gap: 15px;
-}
-
-.user-tool > div {
+.user-tool > li > div {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-}
-
-.user-tool > div > ul {
-  flex: 1 1 100%;
   list-style: none;
   margin-bottom: 10px;
 }
 
-.user-tool > div > ul > li {
+.user-tool > li > ul > li {
   display: flex;
   align-items: center;
   column-gap: 20px;
