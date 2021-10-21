@@ -1,5 +1,6 @@
 html,
 body,
+ul,
 a {
   margin: 0;
   padding: 0;
@@ -14,6 +15,8 @@ h2,
 h3,
 h4,
 p,
+ul,
+li,
 a {
   font-family: 'Poppins', sans-serif;
 }
@@ -46,6 +49,12 @@ nav {
   top: 0;
   left: 0;
   padding: 5px 10px 5px 10px;
+}
+
+header{
+  background: white;
+  position:fixed;
+  z-index: 10;
 }
 
 .logo {
@@ -88,7 +97,7 @@ nav {
 }
 
 .brands {
-  padding-left: 0;
+  margin: 15px 0 15px -5px;
   display: flex;
   list-style: none;
 }
@@ -102,4 +111,108 @@ nav {
 
 .button-mobile {
   margin-right: 15px;
+}
+
+.work-inside {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  list-style: none;
+  padding: 8rem 1.6rem;
+  row-gap: 5em;
+  justify-content: center;
+}
+
+.project {
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.work-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.work-details {
+  display: flex;
+  column-gap: 0.75em;
+  align-items: center;
+}
+
+.p-details {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #344563;
+}
+
+.ul-details {
+  display: flex;
+  align-content: center;
+  padding-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #7a869a;
+  column-gap: 2em;
+  list-style: initial;
+}
+
+.p-ul-details {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.ul-tags {
+  display: flex;
+  list-style: none;
+  column-gap: 4px;
+  margin: 15px 0 15px 0;
+}
+
+.ul-tags li {
+  padding: 3px 14px 3px 14px;
+  background-color: #ebebff;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  font-weight: 500;
+}
+
+.btn-in {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 15px 0 15px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  font-weight: 500;
+  transition: 0.7s;
+}
+
+.btn-in:hover {
+  background-color: #6070ff;
+  color: #fff
+}
+
+.btn-in:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.btn-in:disabled {
+  background-color: #fff;
+  border:1px solid #c1c7d0;
 }
