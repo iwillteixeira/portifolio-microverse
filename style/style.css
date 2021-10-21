@@ -254,14 +254,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-<<<<<<< HEAD
-=======
-  align-items: center;
-}
-
-.user-tool > div > ul {
-  flex: 1 1 100%;
->>>>>>> parent of 5ac1c06 (Change html and CSS tools div to ul>li)
   list-style: none;
   margin-bottom: 10px;
 }
