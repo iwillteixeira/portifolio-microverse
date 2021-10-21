@@ -1,0 +1,105 @@
+html,
+body,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,500;1,700&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f7f7f9;
+  width: 100%;
+}
+
+.top-mob {
+  height: 718px;
+  background-image: url("../img/header-shapes-mobile.png");
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 5rem;
+  border-top-left-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  height: 46px;
+  top: 0;
+  left: 0;
+  padding: 5px 10px 5px 10px;
+}
+
+.logo {
+  padding-top: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.headline {
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  padding: 6rem  1.5rem;
+}
+
+.headline h1 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.headline p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.headline a {
+  color: #7f8cff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.brands {
+  padding-left: 0;
+  display: flex;
+  list-style: none;
+}
+
+.brands i {
+  padding-left: 10px;
+  color: #505f79;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.button-mobile {
+  margin-right: 15px;
+}
