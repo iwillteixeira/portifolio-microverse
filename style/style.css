@@ -8,7 +8,7 @@ a {
   text-decoration: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,700&display=swap');
 
 h1,
 h2,
@@ -24,6 +24,7 @@ a {
 body {
   background-color: #f7f7f9;
   width: 100%;
+  font-family: 'Poppins', sans-serif;
 }
 
 .top-mob {
@@ -51,9 +52,9 @@ nav {
   padding: 5px 10px 5px 10px;
 }
 
-header{
+header {
   background: white;
-  position:fixed;
+  position: fixed;
   z-index: 10;
 }
 
@@ -77,7 +78,7 @@ header{
 .headline h1 {
   font-size: 40px;
   line-height: 52px;
-  font-weight: 700;
+  font-weight: 800;
   color: #172b4d;
 }
 
@@ -88,7 +89,10 @@ header{
   color: #344563;
 }
 
-.headline a {
+.connect,
+.connect:visited,
+.connect:hover,
+.connect:active {
   color: #7f8cff;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -131,7 +135,7 @@ header{
 
 .work-title {
   font-family: 'Poppins', sans-serif;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
@@ -145,7 +149,7 @@ header{
 
 .p-details {
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 16px;
   color: #344563;
 }
@@ -204,7 +208,7 @@ header{
 
 .btn-in:hover {
   background-color: #6070ff;
-  color: #fff
+  color: #fff;
 }
 
 .btn-in:active {
@@ -214,5 +218,68 @@ header{
 
 .btn-in:disabled {
   background-color: #fff;
-  border:1px solid #c1c7d0;
+  border: 1px solid #c1c7d0;
+}
+
+.about {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  row-gap: 3em;
+  padding: 100px 24px;
+  background-color: #fff;
+  border-top-right-radius: 5em;
+}
+
+.about h2 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 800;
+  color: #172b4d;
+}
+
+.about p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.user-tool {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  row-gap: 15px;
+}
+
+.user-tool > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-tool > div > ul {
+  flex: 1 1 100%;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.user-tool > div > ul > li {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  height: 67px;
+  background-color: #f7f7f9;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  padding: 5px 12px;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  background-color: #dfe1e6;
+  width: 100%;
 }
