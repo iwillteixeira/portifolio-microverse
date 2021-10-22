@@ -129,7 +129,7 @@ header {
 }
 
 .project {
-  display:flex;
+  display: flex;
   flex-direction: column;
   padding: 16px;
   border: 1px solid #dfe1e6;
