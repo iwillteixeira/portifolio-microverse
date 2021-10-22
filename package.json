@@ -1,13 +1,14 @@
 {
   "dependencies": {
-    "hint": "^6.1.6",
     "stylelint": "^14.0.0"
   },
   "name": "portifolio-microverse",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "hint": "^6.1.6"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
