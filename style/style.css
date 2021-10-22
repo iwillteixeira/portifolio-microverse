@@ -1,11 +1,13 @@
 html,
 body,
 ul,
+li,
 a {
   margin: 0;
   padding: 0;
   border: 0;
   text-decoration: none;
+  list-style: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,700&display=swap');
@@ -127,6 +129,8 @@ header {
 }
 
 .project {
+  display:flex;
+  flex-direction: column;
   padding: 16px;
   border: 1px solid #dfe1e6;
   border-radius: 20px;
@@ -222,8 +226,8 @@ header {
 }
 
 .about {
-  display: grid;
-  grid-template-rows: repeat(2, auto);
+  display: flex;
+  flex-direction: column;
   row-gap: 3em;
   padding: 100px 24px;
   background-color: #fff;
@@ -244,10 +248,10 @@ header {
   color: #344563;
 }
 
-.user-tool {
-  display: grid;
-  grid-template-rows: repeat(3, auto);
-  row-gap: 15px;
+.user-tool-d {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .user-tool > div {
@@ -263,7 +267,7 @@ header {
   margin-bottom: 10px;
 }
 
-.user-tool > div > ul > li {
+.tool-list > li {
   display: flex;
   align-items: center;
   column-gap: 20px;
