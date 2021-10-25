@@ -31,7 +31,7 @@ body {
 
 .top-mob {
   height: 718px;
-  background-image: url("../img/header-shapes-mobile.png");
+  background-image: url('../img/header-shapes-mobile.png');
   background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@ header {
   flex-direction: column;
   align-items: flex-start;
   position: relative;
-  padding: 6rem  1.5rem;
+  padding: 6rem 1.5rem;
 }
 
 .headline h1 {
@@ -184,6 +184,8 @@ header {
 }
 
 .ul-tags li {
+  float: left;
+  margin-right: 10px;
   padding: 3px 14px 3px 14px;
   background-color: #ebebff;
   border-radius: 8px;
