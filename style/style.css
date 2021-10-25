@@ -179,9 +179,7 @@ header {
 }
 
 .ul-tags {
-  display: flex;
   list-style: none;
-  column-gap: 4px;
   margin: 15px 0 15px 0;
 }
 
