@@ -310,7 +310,7 @@ hr {
 .contact-form p {
   margin: 12px 24px 30px 24px;
   font-family: Poppins;
-  font-size: 25px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
@@ -321,25 +321,40 @@ hr {
 
 .contact-form-holder {
   background-color: #6070ff;
-  width: 100%;
+  background-image: url('../img/contact-shape.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   border-top-left-radius: 5em;
+}
+
+.form-contact{
+  width: 100%;
+  text-align: center;
+  max-width: 447px;
 }
 
 .li-form {
   margin: 10px 24px;
+  text-align: left;
 }
 
 #name_form,
 #message,
 #email_form {
-  align-items: flex-start;
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 8px;
+  margin-bottom: 8px;
+  padding-left: 5px;
   width: 100%;
+  border:none;
+  color: #172b4d;
+  font-family: 'poppins', sans-serif;
+  font-size: 17px;
 }
 
 #message {
@@ -350,10 +365,25 @@ hr {
   width: 140px;
   height: 48px;
   margin-top: 10px;
-  margin-left: 24px;
   margin-bottom: 45px;
   color: #6070FF;
   background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+#get-submit:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+#get-submit:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+#get-submit:disabled {
+  background-color: #fff;
+  border: 1px solid #c1c7d0;
 }
 
 .li-form > input {
