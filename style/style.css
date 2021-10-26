@@ -30,12 +30,11 @@ body {
 }
 
 .main-content {
-
 }
 
 .top-mob {
   height: 718px;
-  background-image: url("../img/header-shapes-mobile.png");
+  background-image: url('../img/header-shapes-mobile.png');
   background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
@@ -78,7 +77,7 @@ header {
   flex-direction: column;
   align-items: flex-start;
   position: relative;
-  padding: 6rem  1.5rem;
+  padding: 6rem 1.5rem;
 }
 
 .headline h1 {
@@ -294,7 +293,30 @@ hr {
 
 .contact-form {
   background-color: #fff;
+}
 
+.contact-form h2 {
+  margin: 103px 24px 10px 24px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.contact-form p {
+  margin: 12px 24px 30px 24px;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #ebebff;
 }
 
 .contact-form-holder {
@@ -306,8 +328,32 @@ hr {
   border-top-left-radius: 5em;
 }
 
-.contact-form-holder form{
-  
+.li-form {
+  margin: 10px 24px;
+}
+
+#name_form,
+#message,
+#email_form {
+  align-items: flex-start;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+#message {
+  height: 170px;
+}
+
+#get-submit {
+  width: 140px;
+  height: 48px;
+  margin-top: 10px;
+  margin-left: 24px;
+  margin-bottom: 45px;
+  color: #6070FF;
+  background-color: #ffffff;
 }
 
 .li-form > input {
