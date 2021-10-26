@@ -1,13 +1,14 @@
 {
-  "dependencies": {
-    "stylelint": "^14.0.0"
-  },
   "name": "portifolio-microverse",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
-    "hint": "^6.1.6"
+    "hint": "^6.1.6",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
