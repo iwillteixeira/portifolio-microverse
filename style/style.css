@@ -135,7 +135,7 @@ header {
   margin-right: 15px;
 }
 
-.desktop-img{
+.desktop-img {
   display: none;
 }
 
@@ -474,11 +474,11 @@ hr {
     padding: 20px;
   }
 
-  .ul-details{
+  .ul-details {
     font-size: 18px;
   }
 
-  .p-details{
+  .p-details {
     font-size: 18px;
   }
 
@@ -504,7 +504,7 @@ hr {
   .me {
     width: 40%;
   }
-  
+
   .tool-list {
     display: flex;
     flex-direction: row;
@@ -524,9 +524,10 @@ hr {
     width: 37%;
   }
 
-  .mobile-img{
-    display:none;
+  .mobile-img {
+    display: none;
   }
+
   .desktop-img {
     display: block;
     width: 55%;
