@@ -135,6 +135,14 @@ header {
   margin-right: 15px;
 }
 
+.desktop-img{
+  display: none;
+}
+
+.mobile-img {
+  display: block;
+}
+
 .works-portfolio {
   display: flex;
   justify-content: center;
@@ -191,6 +199,10 @@ header {
   color: #7a869a;
   column-gap: 2em;
   list-style: initial;
+}
+
+.ul-details > li {
+  list-style: disc;
 }
 
 .p-ul-details {
@@ -433,7 +445,7 @@ hr {
 
   .headline {
     align-content: center;
-    width: 43%;
+    width: 63%;
   }
 
   .headline h1 {
@@ -446,6 +458,7 @@ hr {
 
   .project {
     flex-direction: row;
+    column-gap: 2em;
   }
 
   .project:nth-child(even) {
@@ -461,6 +474,14 @@ hr {
     padding: 20px;
   }
 
+  .ul-details{
+    font-size: 18px;
+  }
+
+  .p-details{
+    font-size: 18px;
+  }
+
   .p-ul-details {
     width: 80%;
     font-size: 16px;
@@ -473,16 +494,21 @@ hr {
     justify-content: center;
     align-items: center;
     padding: 0 8em 0 8em;
-    column-gap: 8em;
+    column-gap: 2em;
+  }
+
+  .user-tool {
+    width: 60%;
   }
 
   .me {
-    width: 50%;
+    width: 40%;
   }
-
+  
   .tool-list {
     display: flex;
     flex-direction: row;
+    width: 100%;
   }
 
   .tool-list > li {
@@ -496,5 +522,15 @@ hr {
 
   .contact-form p {
     width: 37%;
+  }
+
+  .mobile-img{
+    display:none;
+  }
+  .desktop-img {
+    display: block;
+    width: 55%;
+    height: auto;
+    margin: 10px 0 10px 10px;
   }
 }
