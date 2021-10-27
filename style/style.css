@@ -52,18 +52,18 @@ nav {
   position: fixed;
   height: 46px;
   top: 0;
-  left: 0; 
+  left: 0;
 }
 
 .nav-desk {
   display: none;
 }
 
-.nav-desk-ul{
-  display:flex
+.nav-desk-ul {
+  display: flex;
 }
 
-.nav-desk-li a{
+.nav-desk-li a {
   padding-right: 32px;
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
@@ -340,16 +340,12 @@ hr {
 }
 
 .contact-form-holder {
-
-  background-image: -webkit-image-set(
-    url('../img/shapes@2x.png') 1x,
-    url('../img/contact-shape.png') 2x); /* Temporary fallback for Chrome and Safari browsers until they support 'image-set()' better */
-  background-image: image-set(
-    url('../img/contact-shape.png') 1x,
-    url('../img/contact-shape.png') 2x);
-
+  background-image:
+    image-set(
+      url('../img/contact-shape.png') 1x,
+      url('../img/contact-shape.png') 2x
+    );
   background-color: #6070ff;
-  
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -415,29 +411,32 @@ hr {
 }
 
 @media (min-width: 992px) {
-  .top-mob{
+  .top-mob {
     height: 916px;
   }
-  nav{
+
+  nav {
     height: 72px;
   }
 
   .logo {
     margin-left: 2em;
   }
-  .button-mobile{
+
+  .button-mobile {
     display: none;
   }
+
   .nav-desk {
     display: flex;
   }
 
-  .headline{
+  .headline {
     align-content: center;
     width: 43%;
   }
 
-  .headline h1{
+  .headline h1 {
     font-size: 48px;
   }
 
@@ -448,16 +447,18 @@ hr {
   .project {
     flex-direction: row;
   }
+
   .project:nth-child(even) {
     flex-direction: row-reverse;
   }
-  .work-title{
+
+  .work-title {
     font-size: 40px;
     line-height: 52px;
   }
 
-  .text-work{
-    padding: 20px
+  .text-work {
+    padding: 20px;
   }
 
   .p-ul-details {
@@ -471,11 +472,11 @@ hr {
     height: 570px;
     justify-content: center;
     align-items: center;
-    padding:0 8em 0 8em;
+    padding: 0 8em 0 8em;
     column-gap: 8em;
   }
 
-  .me{
+  .me {
     width: 50%;
   }
 
@@ -489,9 +490,10 @@ hr {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin:0 1em 1em 0;
+    margin: 0 1em 1em 0;
     width: 120px;
   }
+
   .contact-form p {
     width: 37%;
   }
