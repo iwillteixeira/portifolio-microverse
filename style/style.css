@@ -422,6 +422,46 @@ hr {
   border: 1px solid #c1c7d0;
 }
 
+.profile-photo {
+  background-color: #253858;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: hsl(258deg 37% 38%);
+  top: 40px;
+  column-gap: 3em;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 4s;
+}
+
+.profile {
+  align-self: center;
+  margin: 21px 0px 66px 42px;
+  border-radius: 95px 82px 131px 122px;
+  width: 30%;
+  border: 2px dashed#387aeb;
+  opacity: 1;
+  box-shadow: -17px -1px #3643b2, -2px 18px #6070ff;
+}
+
+.profile-photo h2{
+  font-size: 60px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 800;
+  color: #fff;
+  width: 30%;
+}
+
+.logo:hover .profile-photo {
+  opacity: 1;
+}
+
 @media (min-width: 992px) {
   .top-mob {
     height: 916px;
@@ -534,4 +574,6 @@ hr {
     height: auto;
     margin: 10px 0 10px 10px;
   }
+
+
 }
