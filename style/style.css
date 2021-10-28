@@ -70,6 +70,11 @@ nav {
   font-weight: 500;
   line-height: 20px;
   color: #344563;
+  transition: 0.2s;
+}
+
+.nav-desk-li a:hover {
+  color: blue;
 }
 
 header {
@@ -122,6 +127,7 @@ header {
   margin: 15px 0 15px -5px;
   display: flex;
   list-style: none;
+  cursor: pointer;
 }
 
 .brands i {
@@ -129,6 +135,10 @@ header {
   color: #505f79;
   font-size: 20px;
   font-style: normal;
+}
+
+.brands > li > a > i {
+  cursor: pointer;
 }
 
 .button-mobile {
@@ -352,11 +362,10 @@ hr {
 }
 
 .contact-form-holder {
-  background-image:
-    image-set(
-      url('../img/contact-shape.png') 1x,
-      url('../img/contact-shape.png') 2x
-    );
+  background-image: image-set(
+    url('../img/contact-shape.png') 1x,
+    url('../img/contact-shape.png') 2x
+  );
   background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: cover;
@@ -438,6 +447,7 @@ hr {
   opacity: 0;
   transition-property: opacity;
   transition-duration: 4s;
+  display: none;
 }
 
 .profile {
@@ -450,9 +460,9 @@ hr {
   box-shadow: -17px -1px #3643b2, -2px 18px #6070ff;
 }
 
-.profile-photo h2{
+.profile-photo h2 {
   font-size: 60px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   color: #fff;
   width: 30%;
@@ -574,6 +584,4 @@ hr {
     height: auto;
     margin: 10px 0 10px 10px;
   }
-
-
 }
