@@ -362,10 +362,11 @@ hr {
 }
 
 .contact-form-holder {
-  background-image: image-set(
-    url('../img/contact-shape.png') 1x,
-    url('../img/contact-shape.png') 2x
-  );
+  background-image:
+    image-set(
+      url('../img/contact-shape.png') 1x,
+      url('../img/contact-shape.png') 2x
+    );
   background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: cover;
@@ -432,9 +433,7 @@ hr {
 }
 
 .profile-photo {
-  background-color: #253858;
   position: absolute;
-  display: flex;
   justify-content: center;
   align-items: center;
   align-self: center;
@@ -452,7 +451,7 @@ hr {
 
 .profile {
   align-self: center;
-  margin: 21px 0px 66px 42px;
+  margin: 21px 0 66px 42px;
   border-radius: 95px 82px 131px 122px;
   width: 30%;
   border: 2px dashed#387aeb;
