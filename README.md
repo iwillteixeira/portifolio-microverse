@@ -2,6 +2,10 @@
 
 # Portifolio Microverse
 
+Visit the online version :
+
+https://iwillteixeira.github.io/portifolio-microverse/
+
 > Build HTML & CSS - Gitflow
 
 ![screenshot](./app_screenshot_new.png)
