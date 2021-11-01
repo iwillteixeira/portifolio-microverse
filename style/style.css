@@ -435,6 +435,7 @@ hr {
 .profile-photo {
   position: absolute;
   justify-content: center;
+  display: flex;
   align-items: center;
   align-self: center;
   width: 100%;
@@ -444,9 +445,14 @@ hr {
   top: 40px;
   column-gap: 3em;
   opacity: 0;
+  transition: all 2000ms ease-in-out;
+}
+
+.aaa {
+  display: flex;
   transition-property: opacity;
-  transition-duration: 4s;
-  display: none;
+  transition-duration: 2s;
+  opacity: 1;
 }
 
 .profile {
@@ -467,8 +473,9 @@ hr {
   width: 30%;
 }
 
-.logo:hover .profile-photo {
+.logo:hover + .profile-photo {
   opacity: 1;
+  color: green;
 }
 
 @media (min-width: 992px) {
