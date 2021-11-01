@@ -4,7 +4,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "browser-sync": "^2.27.7",
+    "cssnano": "^5.0.8",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
     "hint": "^6.1.6",
+    "jquery": "^3.6.0",
+    "sass": "^1.43.4",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
@@ -22,5 +33,8 @@
   "bugs": {
     "url": "https://github.com/iwillteixeira/portifolio-microverse/issues"
   },
-  "homepage": "https://github.com/iwillteixeira/portifolio-microverse#readme"
+  "homepage": "https://github.com/iwillteixeira/portifolio-microverse#readme",
+  "dependencies": {
+    "gulp-terser": "^2.1.0"
+  }
 }
