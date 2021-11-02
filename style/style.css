@@ -478,6 +478,11 @@ hr {
   color: green;
 }
 
+label{
+  font-family: 'Poppins',sans-serif;
+  color: white;
+}
+
 @media (min-width: 992px) {
   .top-mob {
     height: 916px;
