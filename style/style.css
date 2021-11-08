@@ -46,13 +46,31 @@ body {
   opacity: 0;
 }
 
-.mobile-menu-content {
-  display:flex;
-  justify-content: space-between;
+.menu-list {
+  display: flex;
+  flex-direction: column;
 }
 
-.mobile-menu-content > ul {
-  
+.mobile-menu-content {
+  padding: 20px;
+}
+
+.mobile-menu-items{
+  padding-bottom: 15px;
+}
+
+.mobile-menu-items a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Poppins',sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.close-menu {
+  align-self: end;
+  color: #fff;
 }
 
 
