@@ -1,9 +1,7 @@
 const btnMobile = document.querySelector('#btnmobile');
 const menuMobile = document.querySelector('#menu-mobile');
 const closeMenuBtn = document.querySelector('.close-menu');
-const portfolio = document.querySelector('#portfolio_menu');
-const about = document.querySelector('#about_menu');
-const contact = document.querySelector('#contact_menu');
+const menuItems = document.querySelectorAll('.mobile-menu-items > a');
 
 function closeUp() {
   menuMobile.classList.add('animate__fadeOutUp');
@@ -22,9 +20,9 @@ function closeItems(e) {
 function showUp(e) {
   e.preventDefault();
   closeMenuBtn.addEventListener('click', closeUp);
-  portfolio.addEventListener('click', closeItems);
-  about.addEventListener('click', closeItems);
-  contact.addEventListener('click', closeItems);
+  for (let i = 0; i < menuItems.length; i += 1) {
+    menuItems[i].addEventListener('click', closeItems);
+  }
   menuMobile.classList.add('animate__backInDown', 'showUp');
 }
 
