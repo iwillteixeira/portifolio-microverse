@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-48GC7B5L64"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-48GC7B5L64');
-    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+           <!-- Global site tag (gtag.js) - Google Analytics -->
+           <script async src="https://www.googletagmanager.com/gtag/js?id=G-48GC7B5L64"></script>
+           <script>
+             window.dataLayer = window.dataLayer || [];
+             function gtag(){dataLayer.push(arguments);}
+             gtag('js', new Date());
+       
+             gtag('config', 'G-48GC7B5L64');
+           </script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -40,13 +40,27 @@
       <header>
         <nav>
           <a class="logo" href="#">Willian.T</a>
-          <a href="none"><img class="button-mobile" src="img/mobile-button.png" alt="menu-mobile"/></a>
+          <a href="#"><img class="button-mobile" id="btnmobile" src="img/mobile-button.png" alt="menu-mobile"/></a>
           <div class="nav-desk">
             <ul class="nav-desk-ul">
               <li class="nav-desk-li"><a href="#portfolio">Portfolio</a></li>
               <li class="nav-desk-li"><a href="#about">About</a></li>
               <li class="nav-desk-li"><a href="#contact">Contact</a></li>
             </ul>
+          </div>
+          <div id="menu-mobile" class="mobile-menu-shadow animate__animated">
+            <div class="mobile-menu-content">
+                
+                <div class="menu-list">
+                  <div class="close-menu"><i class="fa-solid fa-x"></i></div>
+                  <ul>
+                    <li class="mobile-menu-items"><a id="portfolio_menu" href="#portfolio">Portfolio</a></li>
+                    <li class="mobile-menu-items"><a id="about_menu" href="#about">About</a></li>
+                    <li class="mobile-menu-items"><a id="contact_menu" href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+                
+            </div>
           </div>
         </nav>
       </header>
@@ -65,7 +79,7 @@
           <li>
             <a
               href="https://twitter.com/iwillteixeira"
-              rel="noopener no-referrer"
+              rel="noopener noreferrer"
               target="_blank"
               ><i class="fab fa-twitter"></i
             ></a>
@@ -73,7 +87,7 @@
           <li>
             <a
               href="https://www.linkedin.com/in/juscelino-t-39aa9049/"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
               ><i class="fab fa-linkedin-in"></i
             ></a>
@@ -81,13 +95,13 @@
           <li>
             <a
               href="https://github.com/iwillteixeira"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
               ><i class="fab fa-github"></i
             ></a>
           </li>
           <li>
-            <a href="https://angel.co/" rel="noopener" target="_blank"
+            <a href="https://angel.co/" rel="noopener noreferrer" target="_blank"
               ><i class="fab fa-angellist"></i
             ></a>
           </li>
@@ -220,7 +234,7 @@
           <li>
             <a
               href="https://twitter.com/iwillteixeira"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
               ><i class="fab fa-twitter"></i
             ></a>
@@ -228,7 +242,7 @@
           <li>
             <a
               href="https://www.linkedin.com/in/juscelino-t-39aa9049/"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
               ><i class="fab fa-linkedin-in"></i
             ></a>
@@ -236,13 +250,13 @@
           <li>
             <a
               href="https://github.com/iwillteixeira"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
               ><i class="fab fa-github"></i
             ></a>
           </li>
           <li>
-            <a href="https://angel.co/" rel="noopener" target="_blank"
+            <a href="https://angel.co/" rel="noopener noreferrer" target="_blank"
               ><i class="fab fa-angellist"></i
             ></a>
           </li>
@@ -250,7 +264,7 @@
         <button type="button" class="btn-in btn-anima">Get my resume</button>
       </div>
       <ul class="user-tool">
-        <ul class="languages">
+        <li class="languages">
           <div class="user-tool-d">
             <h3>Languages</h3>
             <i class="fas fa-chevron-down"></i>
@@ -269,7 +283,7 @@
               <p>CSS</p>
             </li>
           </ul>
-        </ul>
+        </li>
         <li class="frameworks">
           <div class="user-tool-d">
             <h3>Frameworks</h3>
@@ -303,7 +317,7 @@
         >
           <ul class="ul-form">
             <li class="li-form">
-              <label for="name">Name</label>
+              <label for="name_form">Name</label>
               <input
                 type="text"
                 placeholder="Yeremias"
@@ -314,7 +328,7 @@
               />
             </li>
             <li class="li-form">
-              <label for="email">E-mail</label>
+              <label for="email_form">E-mail</label>
               <input
                 type="email"
                 placeholder="natajayanj14@gmail.com"
