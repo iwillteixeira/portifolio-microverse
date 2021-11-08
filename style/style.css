@@ -35,7 +35,6 @@ body {
 
 .mobile-menu-shadow {
   position:fixed;
-  display: flex;
   top: 0;
   left: 0;
   width: 100%;
@@ -55,6 +54,7 @@ body {
 .mobile-menu-content > ul {
   
 }
+
 
 .top-mob {
   height: 718px;
