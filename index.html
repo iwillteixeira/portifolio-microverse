@@ -20,6 +20,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/regular.min.css"
@@ -31,6 +32,16 @@
     <title>Willian teixeira Portoflio</title>
   </head>
   <body>
+    <div class="shadow animate__animated">
+      <div class="modal-mobile">
+        <ul>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="close-menu">X</div>
+    </div>
     <div class="top-mob">
       <div class="profile-photo">
         <img class="profile" src="img/profile.jpg" alt="profile photo">
@@ -39,12 +50,12 @@
       <header>
         <nav>
           <a class="logo" href="#">Willian.T</a>
-          <a href="#"><img class="button-mobile" src="img/mobile-button.png" alt="menu-mobile"/></a>
+          <a href="none"><img class="button-mobile" src="img/mobile-button.png" alt="menu-mobile"/></a>
           <div class="nav-desk">
             <ul class="nav-desk-ul">
-              <li class="nav-desk-li"><a href="">Portoflio</a></li>
-              <li class="nav-desk-li"><a href="">About</a></li>
-              <li class="nav-desk-li"><a href="">Contact</a></li>
+              <li class="nav-desk-li"><a href="#portfolio">Portfolio</a></li>
+              <li class="nav-desk-li"><a href="#about">About</a></li>
+              <li class="nav-desk-li"><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -93,7 +104,7 @@
         </ul>
       </section>
     </div>
-    <section class="works-portfolio">
+    <section id="#portfolio" class="works-portfolio">
       <ul class="work-inside">
         <li class="project">
           <img class="mobile-img" src="img/snap1x2.png" alt="Project One" />
@@ -202,7 +213,7 @@
         </li>
       </ul>
     </section>
-    <section class="about">
+    <section id="#about" class="about">
       <div class="me">
         <h2>
           About <br>
@@ -285,7 +296,7 @@
         </li>
       </ul>
     </section>
-    <section class="contact-form">
+    <section id="#contact" class="contact-form">
       <div class="contact-form-holder">
         <h2 class="contact-title">Contact me</h2>
 
@@ -342,5 +353,6 @@
         </form>
       </div>
     </section>
+    <script src="js/app.js"></script>
   </body>
 </html>
