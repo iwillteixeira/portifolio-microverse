@@ -33,24 +33,20 @@
   </head>
   <body>
     <div class="top-mob">
-      <div class="profile-photo">
-        <img class="profile" src="img/profile.jpg" alt="profile photo">
-        <h2>Thats me!</h2>
-      </div>
       <header>
         <nav>
           <a class="logo" href="#">Willian.T</a>
-          <a href="#"><img class="button-mobile" id="btnmobile" src="img/mobile-button.png" alt="menu-mobile"/></a>
+          <a id="btnmobile" href="#menu-mobile"><img class="button-mobile" src="img/mobile-button.png" alt="menu-mobile"/></a>
           <div class="nav-desk">
             <ul class="nav-desk-ul">
-              <li class="nav-desk-li"><a id="" href="#portfolio">Portfolio</a></li>
+              <li class="nav-desk-li"><a href="#portfolio">Portfolio</a></li>
               <li class="nav-desk-li"><a href="#about">About</a></li>
               <li class="nav-desk-li"><a href="#contact">Contact</a></li>
             </ul>
           </div>
-          <div id="menu-mobile" class="mobile-menu-shadow animate__animated">
+   <!-- menu mobile        -->
+          <div id="menu-mobile" class="mobile-menu-shadow animate__animated modal-port">
             <div class="mobile-menu-content">
-                
                 <div class="menu-list">
                   <div class="close-menu"><i class="fa-solid fa-x"></i></div>
                   <ul>
@@ -132,7 +128,7 @@
               <li>javascript</li>
             </ul>
             <div class="work-btn">
-              <button type="button" class="btn-in btn-anima">See Project</button>
+              <a class="btn-in btn-anima" href="#details1">See Project </a>
             </div>
           </div>
           
@@ -159,7 +155,7 @@
               <li>javascript</li>
             </ul>
             <div class="work-btn">
-              <button type="button" class="btn-in btn-anima">See Project</button>
+              <a class="btn-in btn-anima" href="#details2">See Project </a>
             </div>
           </div>
         </li>
@@ -185,7 +181,7 @@
               <li>javascript</li>
             </ul>
             <div class="work-btn">
-              <button type="button" class="btn-in btn-anima">See Project</button>
+              <a class="btn-in btn-anima" href="#details3">See Project </a>
             </div>
           </div>
         </li>
@@ -211,7 +207,7 @@
               <li>javascript</li>
             </ul>
             <div class="work-btn">
-              <button type="button" class="btn-in btn-anima">See Project</button>
+              <a class="btn-in btn-anima" href="#details1">See Project </a>
             </div>
           </div>
         </li>
@@ -357,6 +353,202 @@
         </form>
       </div>
     </section>
+<!-- detail Pop-up window ONE TONIC-->
+
+    <div id="details1" class="shadow-details animate__animated modal-port1">
+      <div class="content-details">
+        <div class="text-work">
+          <div class="work-modal-header">
+            <h2 class="work-title">Tonic</h2>
+            <i class="fa-solid fa-x close-modal-details detailOne"><a href="modal-port1"></a></i>
+
+          </div>
+          <div class="work-details">
+            <p class="p-details">CANOPY</p>
+            <ul class="ul-details">
+              <li>Back End Dev</li>
+              <li>2015</li>
+            </ul>
+            
+          </div>
+          <div class="image-modal-details">
+            <img class="mobile-img" src="img/snap1x2.png" alt="Project One" />
+          <img class="desktop-img img-modal" src="img/snap1modalbig.png" alt="Project One" />
+          
+          </div>
+          
+          
+          <div class="ul-details-modal">
+            <p class="p-ul-details">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <div class="wrap-desk-modal">
+              <ul class="ul-tags">
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+              </ul>
+              <hr>
+              <div class="work-btn work-btn-details">
+                <button type="button" class="btn-in btn-anima">See Live <i class="fas fa-external-link-alt"></i></button>
+                <button type="button" class="btn-in btn-anima">See Source <i class="fab fa-github"></i></button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- detail Pop-up window TWO -->
+
+    <div id="details2" class="shadow-details animate__animated modal-port1">
+      <div class="content-details">
+        <div class="text-work">
+          <div class="work-modal-header">
+            <h2 class="work-title">Multi-Post Stories</h2>
+            <i class="fa-solid fa-x close-modal-details detailOne"><a href="modal-port1"></a></i>
+
+          </div>
+          <div class="work-details">
+            <p class="p-details">CANOPY</p>
+            <ul class="ul-details">
+              <li>Back End Dev</li>
+              <li>2015</li>
+            </ul>
+            
+          </div>
+          <div class="image-modal-details">
+            <img class="mobile-img" src="img/snap1x2.png" alt="Project One" />
+          <img class="desktop-img img-modal" src="img/snap1modalbig.png" alt="Project One" />
+          
+          </div>
+          
+          
+          <div class="ul-details-modal">
+            <p class="p-ul-details">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <div class="wrap-desk-modal">
+              <ul class="ul-tags">
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+              </ul>
+              <hr>
+              <div class="work-btn work-btn-details">
+                <button type="button" class="btn-in btn-anima">See Live <i class="fas fa-external-link-alt"></i></button>
+                <button type="button" class="btn-in btn-anima">See Source <i class="fab fa-github"></i></button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- detail Pop-up window THREE -->
+
+    <div id="details3" class="shadow-details animate__animated modal-port1">
+      <div class="content-details">
+        <div class="text-work">
+          <div class="work-modal-header">
+            <h2 class="work-title">Tonic</h2>
+            <i class="fa-solid fa-x close-modal-details detailOne"><a href="modal-port1"></a></i>
+
+          </div>
+          <div class="work-details">
+            <p class="p-details">CANOPY</p>
+            <ul class="ul-details">
+              <li>Back End Dev</li>
+              <li>2015</li>
+            </ul>
+            
+          </div>
+          <div class="image-modal-details">
+            <img class="mobile-img" src="img/snap1x2.png" alt="Project One" />
+          <img class="desktop-img img-modal" src="img/snap1modalbig.png" alt="Project One" />
+          
+          </div>
+          
+          
+          <div class="ul-details-modal">
+            <p class="p-ul-details">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <div class="wrap-desk-modal">
+              <ul class="ul-tags">
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+              </ul>
+              <hr>
+              <div class="work-btn work-btn-details">
+                <button type="button" class="btn-in btn-anima">See Live <i class="fas fa-external-link-alt"></i></button>
+                <button type="button" class="btn-in btn-anima">See Source <i class="fab fa-github"></i></button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- detail Pop-up window FOUR -->
+
+    <div id="details4" class="shadow-details animate__animated modal-port1">
+      <div class="content-details">
+        <div class="text-work">
+          <div class="work-modal-header">
+            <h2 class="work-title">Multi-Post Stories</h2>
+            <i class="fa-solid fa-x close-modal-details detailOne"><a href="modal-port1"></a></i>
+
+          </div>
+          <div class="work-details">
+            <p class="p-details">CANOPY</p>
+            <ul class="ul-details">
+              <li>Back End Dev</li>
+              <li>2015</li>
+            </ul>
+            
+          </div>
+          <div class="image-modal-details">
+            <img class="mobile-img" src="img/snap1x2.png" alt="Project One" />
+          <img class="desktop-img img-modal" src="img/snap1modalbig.png" alt="Project One" />
+          
+          </div>
+          
+          
+          <div class="ul-details-modal">
+            <p class="p-ul-details">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <div class="wrap-desk-modal">
+              <ul class="ul-tags">
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+              </ul>
+              <hr>
+              <div class="work-btn work-btn-details">
+                <button type="button" class="btn-in btn-anima">See Live <i class="fas fa-external-link-alt"></i></button>
+                <button type="button" class="btn-in btn-anima">See Source <i class="fab fa-github"></i></button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
