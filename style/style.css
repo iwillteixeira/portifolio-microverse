@@ -743,3 +743,9 @@ label {
   visibility: visible;
   opacity: 1;
 }
+
+.error-email {
+
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
