@@ -306,7 +306,7 @@
           with it
         </p>
 
-        <form
+        <form id="form"
           action="https://formspree.io/f/xqkwonvv"
           class="form-contact"
           method="post"
@@ -330,7 +330,6 @@
                 placeholder="natajayanj14@gmail.com"
                 name="email"
                 id="email_form"
-                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
                 required
               />
             </li>
@@ -346,9 +345,11 @@
                 required
               ></textarea>
             </li>
+            <li><p class="error-email animate__animated "></p></li>
             <li class="li-form">
               <input id="get-submit"  type="submit" value="Get It Touch" class="btn-in" />
             </li>
+           
           </ul>
         </form>
       </div>
@@ -549,6 +550,8 @@
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
+   <script src="js/form.js"></script>
     <script src="js/app.js"></script>
+    
   </body>
 </html>

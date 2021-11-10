@@ -743,3 +743,10 @@ label {
   visibility: visible;
   opacity: 1;
 }
+
+p.error-email {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
