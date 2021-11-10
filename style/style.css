@@ -744,8 +744,9 @@ label {
   opacity: 1;
 }
 
-.error-email {
-  color: red;
+p.error-email {
+  color: #fff;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
+  font-weight: 700;
 }
