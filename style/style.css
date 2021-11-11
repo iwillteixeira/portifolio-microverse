@@ -410,12 +410,8 @@ hr {
 }
 
 .contact-form-holder {
-  background-image:
-    image-set(
-      url('../img/contact-shape.png') 1x,
-      url('../img/contact-shape.png') 2x
-    );
   background-color: #6070ff;
+  background-image: url(../img/contact-shape.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
