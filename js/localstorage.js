@@ -1,12 +1,14 @@
 
     const valuesForm = (e) => {
-      console.log(e.target.value, e.target.name)
+     
       
       const formData = {
         name: form.name.value,
         email: form.email.value,
         message: form.message.value,
       };
+
+      
   
       localStorage.setItem('formData', JSON.stringify(formData));
     };
@@ -34,7 +36,6 @@
         form.message.value = message;
       }
     };
-  
     document.addEventListener('DOMContentLoaded', () => {
       existLocal();
     });
