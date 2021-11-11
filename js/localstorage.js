@@ -1,4 +1,4 @@
-window.onload = () => {
+const storageL = () => {
   const form = document.getElementById('form');
   const valuesForm = () => {
     const formData = {
@@ -37,3 +37,4 @@ window.onload = () => {
     existLocal();
   });
 };
+storageL();
