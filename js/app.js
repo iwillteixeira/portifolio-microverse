@@ -33,9 +33,12 @@ function showUp(e) {
   }
   eleItem.classList.add('animate__backInDown', 'showUp');
   const eleItemClose = eleItem.querySelector('.close-modal-details');
-  eleItemClose.addEventListener('click', () => {
-    eleItem.classList.remove('animate__backInDown', 'showUp', 'animate__fadeOutUp');
-  });
+  if(eleItemClose !== null){
+    eleItemClose.addEventListener('click', () => {
+      eleItem.classList.remove('animate__backInDown', 'showUp', 'animate__fadeOutUp');
+    });
+  }
+  
 }
 
 for (let i = 0; i < detailsbutton.length; i += 1) {
