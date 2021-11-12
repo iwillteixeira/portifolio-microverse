@@ -13,7 +13,7 @@ function closeUp() {
 function scrollTosection(e) {
   const linkItems = e.getAttribute('href');
   document.getElementById(linkItems).scrollIntoView({
-    behavior: 'smooth',
+    behavior: 'smooth
   });
 }
 
@@ -23,7 +23,7 @@ function closeItems() {
   scrollTosection(obj);
 }
 
-function showUp(e) {
+function showUp(a) {
   e.preventDefault();
   const getEle = this.getAttribute('href');
   const eleItem = document.querySelector(getEle);
@@ -47,6 +47,6 @@ for (let i = 0; i < detailsbutton.length; i += 1) {
 
 for (let i = 0; i < menuItems.length; i += 1) {
   menuItemsDesk[i].addEventListener('click', closeItems);
-}
+
 
 btnMobile.addEventListener('click', showUp);
