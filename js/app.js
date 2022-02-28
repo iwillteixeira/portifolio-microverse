@@ -13,7 +13,7 @@ function closeUp() {
 function scrollTosection(e) {
   const linkItems = e.getAttribute('href');
   document.getElementById(linkItems).scrollIntoView({
-    behavior: 'smooth
+    behavior: 'smooth'
   });
 }
 
